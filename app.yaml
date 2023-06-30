@@ -1,12 +1,10 @@
-runtime: python27
-api_version: 1
-threadsafe: true
+runtime: php
+env: flex
 
 handlers:
-- url: /
-  static_files: index.html
-  upload: index.html
-
-- url: /(.*)
+- url: /(.+\.(ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|otf|css|js))$
   static_files: \1
-  upload: (.*)
+  upload: .+\.(ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|otf|css|js)$
+
+- url: /.*
+  script: auto
