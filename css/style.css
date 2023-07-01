@@ -888,7 +888,7 @@ section .container {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
 }
-.contact .php-email-form .error-message::before{
+.contact .php-email-form .error-message {
   display: none !important;
   background: rgba(255, 255, 255, 0.08);
   background: #0ded20;
@@ -896,14 +896,7 @@ section .container {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message::after{
-  display: none ;
-  background: rgba(255, 255, 255, 0.08);
-  background: #0ded20;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
+
 .contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }

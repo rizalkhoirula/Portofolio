@@ -8,4 +8,5 @@ handlers:
   upload: index.html
 
 - url: /(.*)
+  static_files: \1
   upload: (.*)
