@@ -149,7 +149,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(15, 25, 31, 0.452);
+  background: rgba(53, 53, 90, 0.603);
   border-radius: 0 0 30px 30px;
   box-shadow: rgb(95, 139, 214) 0px 0px 15px 0px;
 
@@ -888,10 +888,18 @@ section .container {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
 }
-.contact .php-email-form .error-message {
-  display: none;
+.contact .php-email-form .error-message::before{
+  display: none !important;
   background: rgba(255, 255, 255, 0.08);
-  background: #ed3c0d;
+  background: #0ded20;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+.contact .php-email-form .error-message::after{
+  display: none ;
+  background: rgba(255, 255, 255, 0.08);
+  background: #0ded20;
   text-align: left;
   padding: 15px;
   font-weight: 600;

@@ -118,6 +118,7 @@
   font-size: 16px;
   position: relative;
 }
+
         </style>
       </nav>
       <!-- .navbar -->
@@ -708,7 +709,7 @@ create innovative and attractive site designs, SEO Friendly
         </div>
       </div>
 
-      <form action="email.php" method="post" role="form" class="php-email-form mt-4">
+      <form action="https://formspree.io/f/mzblpynr" method="post" class="php-email-form mt-4">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
@@ -725,13 +726,16 @@ create innovative and attractive site designs, SEO Friendly
         </div>
         <div class="my-3">
           <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">
+          <div class="sent-message">Your message has been sent.</div>
+          <div class="error-message" disabled>
             Your message has been sent. Thank you!
           </div>
+
+          
+          <div class="sent-message">Your message has been sent.</div>
         </div>
         <div class="text-center">
-          <button type="submit" name="send" value="submit">Send Message</button>
+<button type="submit" name="send" value="submit">Send Message</button></a>
         </div>
       </form>
     </div>
@@ -757,10 +761,10 @@ create innovative and attractive site designs, SEO Friendly
   <script src="js/php-email-form-validate.js"></script>
         <script src="js/js-particles.min.js"></script>
       <script src="js/js-part-conf.js"></script>
+      <script src="sweetalert2.all.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="js/js-main.js"></script>
 </body>
 </html>
-
 
