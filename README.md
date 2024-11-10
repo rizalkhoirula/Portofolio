@@ -1,2 +1,2 @@
 # Portofolio
-demo https://rizalkhoirula.vercel.app/
+demo https://www.rizalkhoirula.my.id/
